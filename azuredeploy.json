@@ -12,7 +12,8 @@
                 "eastus",
                 "eastus2",
                 "southcentralus",
-                "westus2"
+                "westus2",
+                "polandcentral"
             ]
         },
         "secLocation": {
@@ -26,6 +27,7 @@
                 "eastus2",
                 "southcentralus",
                 "westus2"
+                "northeurope"
             ]
         },
         "vmAdminUsername": {
