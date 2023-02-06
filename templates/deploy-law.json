@@ -29,7 +29,7 @@
             "name": "[variables('laWorkspaceName')]",
             "type": "Microsoft.OperationalInsights/workspaces",
             "apiVersion": "[variables('laApiVersion')]",
-            "location": "northeurope",
+            "location": "[resourceGroup().location]",
             "tags": "[parameters('tags')]",
             "properties": {
                 "sku": {
